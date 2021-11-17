@@ -93,6 +93,11 @@ When this occurs, the line is simply skipped.
 
 # Building & Running
 
+To limit the size of the repository, the CSV file for challenge two
+***is not included in the repository.*** Please place log20170630.csv inside of
+src/main/resources. The filename is already set in `App.java`'s main function.
+
+
 This program uses maven to build a jar file and docker to containerize it. To build and run this program, type:
 
 ```

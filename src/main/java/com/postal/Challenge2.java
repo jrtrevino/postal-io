@@ -33,6 +33,28 @@ public class Challenge2 {
     }
 
     /**
+     * Getter method for testing.
+     * @return bytes -> double representing number of bytes transferred.
+     */
+    public double getBytes() {
+        return bytes;
+    }
+
+    /**
+     * @return ipAddresses -> set containing unique ip addresses.
+     */
+    public Set<String> getIPAddresses() {
+        return ipAddresses;
+    }
+
+    /**
+     * @return statusCodes -> HashMap containing (statusCode, Frequency) pairs.
+     */
+    public Map<String, Integer> getStatusCodes() {
+        return statusCodes;
+    }
+
+    /**
      * Parses the file with name dataFileName.
      * Calculates the number of unique IP addresses, status code frequencies,
      * and the number of bytes transferred.

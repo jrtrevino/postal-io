@@ -84,6 +84,7 @@ Printing status codes and frequencies.
 504.0: 286
 503.0: 147948
 304.0: 449732
+Total Codes: 23677491
 ```
 
 ### Potential Issues?

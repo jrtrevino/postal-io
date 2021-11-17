@@ -20,7 +20,7 @@ String endpoint = "https://en.wikipedia.org/w/api.php";
 String[] queries = { "action=parse", "section=0", "prop=text", "format=json", "page=Cincinnati" };
 String wordSearch = "<your word here>";
 
-App app = new App(endpoint, queries, wordSearch);
+Challenge1 app = new Challenge1(endpoint, queries, wordSearch);
 int wordCount = app.run();
 ```
 

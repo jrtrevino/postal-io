@@ -66,7 +66,8 @@ Simply provide the filename without any path due to Maven's build process.
 
 ### Challenge2 Output
 
-This class's `run()` method will produce the following output:
+This class's `run()` method will produce the following output for file "log20170630.csv",
+located [at this site](www.sec.gov/dera/data/Public-EDGAR-log-file-data/2017/Qtr2/log20170630.zip):
 ```
 Running challenge 2.
 Number of unique masked IP addresses found: 78181

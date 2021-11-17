@@ -83,9 +83,13 @@ public class Challenge2 {
         System.out.println(String.format("Number of unique masked IP addresses found: %d", ipAddresses.size()));
         System.out.println(String.format("Total bytes transferred: %f", bytes));
         System.out.println("Printing status codes and frequencies.");
+        int totalCodes = 0;
         for (String key : statusCodes.keySet()) {
-            System.out.println(key + ": " + statusCodes.get(key));
+            int val = statusCodes.get(key);
+            totalCodes += val;
+            System.out.println(key + ": " + val);
         }
+        System.out.println(String.format("Total Codes: %d", totalCodes));
 
     }
 }

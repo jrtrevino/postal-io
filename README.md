@@ -51,7 +51,8 @@ Once these metrics are calculated, the results are printed to standard out.
 
 ### CSV File
 
-The location of the CSV file is located in `src/main/resources`.
+The location of the CSV file needs to be located in `src/main/resources`.
+Please read the note on the bottom of this README about the CSV.
 Adding more files to this location allows for more parsing, ***assuming these 
 additional files also contain the `size`, `code`, and `ip` headers***.
 
